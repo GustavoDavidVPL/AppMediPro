@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/holo_green_light"
+              android:orientation="vertical"
+              tools:context="com.example.gustavo.appmedipro.Main3ActivityArnica">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pomada de Manzanilla"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="171dp"
+        android:layout_height="224dp"
+        app:srcCompat="@mipmap/manzanilla"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="esta pomada es usada para rozaduras, quemaduras, golpes leves, manos agrietadas La Manzanilla, reconocida por sus propiedades desinflamatorias, calmantes y suavizantes, se utiliza en esta pomada para aliviar quemaduras y golpes leves, rozaduras de pañales y piel agrietada o maltratada, así como labios resecos."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>
